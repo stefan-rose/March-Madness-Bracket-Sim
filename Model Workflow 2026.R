@@ -733,7 +733,7 @@ ggplot(influence, aes(x = reorder(Label, `Pct%`), y = `Pct%`)) +
   theme(panel.grid.major.y = element_blank(),
         legend.position = "right")
 
-ggsave("plots/07_metric_influence.png", plot = last_plot(), width = 10, height = 7, dpi = 150)
+ggsave("March-Madness-Bracket-Sim/plots/07_metric_influence.png", plot = last_plot(), width = 10, height = 7, dpi = 150)
 
 
 # Save all plots to /plots folder
